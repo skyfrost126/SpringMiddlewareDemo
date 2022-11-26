@@ -1,0 +1,11 @@
+server:
+  port: 8021
+spring:
+  quartz:
+    job-store-type: jdbc # quartz定时任务,采用数据库方式
+  application:
+    name: quartz
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848 #此处配置nacos地址端口
