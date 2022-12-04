@@ -9,6 +9,7 @@
     <modules>
         <module>nacos-discovery</module>
         <module>scheduleJob</module>
+        <module>mybatisPlus</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -1,0 +1,15 @@
+server:
+  port: 8022
+spring:
+  application:
+    name: mybatis-plus
+  datasource: # 数据库配置
+    data-username:
+    data-password:
+    driver-class-name:
+    url:
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志
+    map-underscore-to-camel-case: true # 驼峰命名
