@@ -1,0 +1,18 @@
+server:
+  port: 8023
+spring:
+  application:
+    name: rocketMQ
+
+rocketmq:
+  # nameServer地址
+  name-server:
+  producer:
+    grouo: my-producer-group
+    topic: test-topic
+    #sync tag(同步消息tag)
+    sync-tag: test-sync-tags
+    #async tag(异步消息tag)
+    aync-tag: test-aync-tags
+    #oneway tag(单向消息tag)
+    oneway-tag: test-oneway-tags
