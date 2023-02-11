@@ -11,6 +11,7 @@
         <module>scheduleJob</module>
         <module>mybatisPlus</module>
         <module>rocketMQ</module>
+        <module>kafkaDemo</module>
     </modules>
     <packaging>pom</packaging>
 
